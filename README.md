@@ -22,7 +22,7 @@ This is the new frontend for Shields website. We are migrating to our own codeba
   - Where can we find this component?
 
 ### Notes
-- ma
+- N/A 
 
 ### References
 - If lost feel free to checkout the Next.js, ChakraUI, and Typescript docs.
