@@ -3,7 +3,7 @@
 This is the new frontend for Shields website. We are migrating to our own codebase. This FE is made with Next.js, Typescript, ChakraUI, and in the meantime will be hosted on Vercel.
 
 ## Major Features
-- 1 Our own code base for the frontend
+- Our own code base for the frontend
 
 ## Running the Product
 - To run this on your machine -> NPM i -> NPM run dev.
