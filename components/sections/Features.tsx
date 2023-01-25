@@ -1,8 +1,8 @@
 import { ArrowForwardIcon } from '@chakra-ui/icons';
 import { Center, Link, SimpleGrid } from '@chakra-ui/react';
 import FeatureHeading from '../features/FeatureHeading';
-import ScamProtection from '../features/scamProtection';
-import UserPerks from '../features/userPerks';
+import ScamProtection from '../features/ScamProtection';
+import UserPerks from '../features/UserPerks';
 
 export default function Feature() {
   return (
