@@ -1,11 +1,11 @@
 import { Stack, Flex, Heading, useBreakpointValue, Button, Text, Image, Container } from '@chakra-ui/react';
-import {ArrowForwardIcon} from '@chakra-ui/icons'
+import {SiDiscord} from 'react-icons/si'
 import React from 'react';
 
 const Hero:React.FC = () => {
     
     return(
-    <Stack  bg="#010633" pt='10'maxW="full" direction={{ base: 'column', md: 'row' }}>
+    <Stack  bg="#010633" pt='20'maxW="full" direction={{ base: 'column', md: 'row' }}>
       <Flex flex={1} align={'center'} justify={'center'}>
         <Stack py='6' alignSelf={'flex-start'} spacing={6} w={'full'} maxW={'md'}>
           <Heading fontSize={'56px'}>
@@ -13,13 +13,13 @@ const Hero:React.FC = () => {
             Eliminate scams from your
             </Text>
             <Text color={'blue.400'} as={'span'}>
-            NFT marketplace            
+            NFT Project            
             </Text>
           </Heading>
           <Text fontSize='20px' color={'white'}>
-          Shield is a content moderation engine that helps platforms protect users from scams
+          Shield is an AI-powered discord bot that helps web3 communities grow securely
           </Text>
-          <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
+          <Stack direction={{ base: 'column', md: 'row' }} spacing={4} py='20px'>
             <Button
               size='lg'
               rounded={'full'}
@@ -28,9 +28,20 @@ const Hero:React.FC = () => {
               _hover={{
                 bg: 'blue.500',
               }}
-              rightIcon={<ArrowForwardIcon />}
+              leftIcon={<SiDiscord/>}
               >
-              Join Shield Beta
+              Add to Discord
+            </Button>
+            <Button
+              size='lg'
+              rounded={'full'}
+              bg={'white'}
+              color={'black'}
+              _hover={{
+                bg: 'blue.500',
+              }}
+              >
+              Admin Dashboard
             </Button>
           </Stack>
         </Stack>

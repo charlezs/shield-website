@@ -1,5 +1,5 @@
 import { ReactElement } from 'react';
-import { Box, SimpleGrid, Icon, Text, Stack, Flex, Container } from '@chakra-ui/react';
+import { Image, SimpleGrid, Icon, Text, Stack, Flex, Container, Center } from '@chakra-ui/react';
 import { FcAssistant, FcDonate, FcInTransit } from 'react-icons/fc';
 
 interface FeatureProps {
@@ -16,26 +16,58 @@ const Backers:React.FC = () => {
         <Text fontSize={'18px'} align='center' py='10' color={'gray.500'}>
             Venture-backed founders from world-class institutions
         </Text>
-        <SimpleGrid  columns={{ base: 1, md: 6 }} spacing={10}>
-            <Box bg='tomato' height='80px'>
+        <Center>
+        <SimpleGrid gap={{ base: '4', md: '8' }} columns={{ base: 2, md: 3, lg: 6 }}>
+        <Center>
+        <Image
+            objectFit='cover'
+            src='./mit.png'
+            alt='Dan Abramov'
+        />
+        </Center>
+        <Center>
 
-            </Box>
-            <Box bg='tomato' height='80px'>
+        <Image
+            objectFit='cover'
+            src='./prince.png'
+            alt='Dan Abramov'
+        />
+        </Center>
+        <Center>
 
-            </Box>
-            <Box bg='tomato' height='80px'>
+        <Image
+            objectFit='cover'
+            src='./meta.png'
+            alt='Dan Abramov'
+        />
+        </Center>
+        <Center>
 
-            </Box>
-            <Box bg='tomato' height='80px'>
+        <Image
+            objectFit='cover'
+            src='./messari.png'
+            alt='Dan Abramov'
+        />
+        </Center>
+        <Center>
 
-            </Box>
-            <Box bg='tomato' height='80px'>
+        <Image
+            objectFit='cover'
+            src='./mckinsey.png'
+            alt='Dan Abramov'
+        />
+        </Center>
+        <Center>
 
-            </Box>
-            <Box bg='tomato' height='80px'>
+        <Image
+            objectFit='cover'
+            src='./yc.png'
+            alt='Dan Abramov'
+        />
+        </Center>
 
-            </Box>
         </SimpleGrid>
+        </Center>
     </Container>
     </>
     )
