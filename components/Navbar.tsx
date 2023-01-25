@@ -44,6 +44,7 @@ export default function Simple() {
           <Flex alignItems={'center'}>
           <Flex alignItems={'center'}>
           <HStack
+              fontSize={'17px'}
               as={'nav'}
               spacing={4}
               display={{ base: 'none', md: 'flex' }}>
