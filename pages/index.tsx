@@ -1,4 +1,6 @@
+import FeatureHeading from '@/components/features/FeatureHeading';
 import Backers from '@/components/sections/Backers';
+import Feature from '@/components/sections/Features';
 import {
   Container
 } from '@chakra-ui/react';
@@ -14,6 +16,8 @@ export default function WithBackgroundImage() {
     </Head>
     <Hero />
     <Backers />
+    <FeatureHeading />
+    <Feature />
   </Container>
   );
 }
