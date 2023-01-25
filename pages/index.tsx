@@ -1,6 +1,7 @@
 import FeatureHeading from '@/components/features/FeatureHeading';
 import Backers from '@/components/sections/Backers';
 import Feature from '@/components/sections/Features';
+import Trust from '@/components/sections/Trust';
 import {
   Container
 } from '@chakra-ui/react';
@@ -18,6 +19,7 @@ export default function WithBackgroundImage() {
     <Backers />
     <FeatureHeading />
     <Feature />
+    <Trust />
   </Container>
   );
 }

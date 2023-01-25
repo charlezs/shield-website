@@ -1,12 +1,5 @@
 import { ReactElement } from 'react';
 import { Image, SimpleGrid, Icon, Text, Stack, Flex, Container, Center } from '@chakra-ui/react';
-import { FcAssistant, FcDonate, FcInTransit } from 'react-icons/fc';
-
-interface FeatureProps {
-    title: string;
-    text: string;
-    icon: ReactElement;
-  }
 
 const Backers:React.FC = () => {
     
