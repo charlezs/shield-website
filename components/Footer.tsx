@@ -16,7 +16,7 @@ import {
 
 const Logo = (props: any) => {
   return (
-    <Image src='./shieldfooter.png' height={'65px'} width='190px'/>
+    <Image src='./shieldfooter.png' height={'65px'} width='190px' alt='shield logo'/>
   );
 };
 

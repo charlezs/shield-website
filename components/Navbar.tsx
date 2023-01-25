@@ -37,7 +37,7 @@ export default function Simple() {
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <HStack spacing={8} alignItems={'right'}>
           <Flex align={'center'} width={{base: '140px', md: 'auto'}} mr={{base: 0, md: 2}}>
-            <Image src='./shield.png' height={'42px'}/>
+            <Image src='./shield.png' height={'42px'}  alt='shield logo'/>
             {/* <Image src='/images/shieldText.svg' height={'46px'} display={{base: 'none', md: 'unset'}}/> */}
           </Flex>            
           </HStack>

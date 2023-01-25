@@ -33,6 +33,7 @@ import {
               objectFit={'fill'}
               height='100%'
               width={'100%'}
+              alt='user perks image'
             />
           </Box>
           <Stack>
