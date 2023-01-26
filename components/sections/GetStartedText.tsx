@@ -1,5 +1,4 @@
-import { ArrowForwardIcon } from '@chakra-ui/icons';
-import { Center, SimpleGrid, Image, Heading, Stack, Text, Link, ListItem, UnorderedList } from '@chakra-ui/react';
+import { Center, SimpleGrid, Heading, Stack, Text, Link, ListItem, UnorderedList } from '@chakra-ui/react';
 import React from 'react';
 
 const GetStartedText:React.FC = () => {
