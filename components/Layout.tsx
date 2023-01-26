@@ -10,7 +10,7 @@ function Layout({children}: Child) {
         <>
             <Navbar/>
             <main>{children}</main>
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

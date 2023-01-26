@@ -1,4 +1,5 @@
 import FeatureHeading from '@/components/features/FeatureHeading';
+import Footer from '@/components/Footer';
 import Backers from '@/components/sections/Backers';
 import Demo from '@/components/sections/Demo';
 import Feature from '@/components/sections/Features';
@@ -10,6 +11,7 @@ import Head from 'next/head';
 import Hero from '../components/sections/Hero'
 export default function WithBackgroundImage() {
   return (
+    <>
     <Container maxW="full" bg='#010633'>
     <Head>
         <title>Home</title>
@@ -23,5 +25,7 @@ export default function WithBackgroundImage() {
     <Trust />
     <Demo />
   </Container>
+  <Footer />
+    </>
   );
 }
