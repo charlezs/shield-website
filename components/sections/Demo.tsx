@@ -29,7 +29,7 @@ import {
           </Heading>
           <Text color={'gray.500'} maxW={'3xl'} pb='30px'fontSize='20px'>
           Wanna protect your community from scammers, <br/> 
-            impersonators, and hackers? Let's chat!
+            impersonators, and hackers? Let&apos;s chat!
           </Text>
         </Stack>
         <Center>
