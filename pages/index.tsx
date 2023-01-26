@@ -1,5 +1,6 @@
 import FeatureHeading from '@/components/features/FeatureHeading';
 import Backers from '@/components/sections/Backers';
+import Demo from '@/components/sections/Demo';
 import Feature from '@/components/sections/Features';
 import Trust from '@/components/sections/Trust';
 import {
@@ -20,6 +21,7 @@ export default function WithBackgroundImage() {
     <FeatureHeading />
     <Feature />
     <Trust />
+    <Demo />
   </Container>
   );
 }

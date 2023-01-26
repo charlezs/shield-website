@@ -31,13 +31,13 @@ const ListHeader = ({ children }: { children: ReactNode }) => {
 export default function MainFooter() {
   return (
     <Box
-      bg={useColorModeValue('gray.50', 'gray.900')}
+      bg={'white'}
       color={useColorModeValue('gray.700', 'gray.200')}>
         <Center>
-              <Divider borderColor='gray.400' maxW={'6xl'} pt='15px'/>
+              <Divider borderColor='gray.400' maxW={'4xl'} pb='10'/>
         </Center>
 
-      <Container as={Stack} maxW={'6xl'} py={10}>
+      <Container as={Stack} maxW={'6xl'} py={20}>
         <SimpleGrid
           templateColumns={{ sm: '1fr 1fr', md: '2fr 2fr 1fr 1fr 1fr' }}
           spacing={8}>
