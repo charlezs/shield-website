@@ -8,8 +8,8 @@ const GetStartedText:React.FC = () => {
         <SimpleGrid w='100%'gap={{ base: '4', md: '40' }} columns={1}>
         <Center>
         <Stack mt='6' spacing='3'>
-                <Heading color='white' fontSize='36px'>Add the Shield bot to the server(s) of your choice</Heading>
-                <Text color='white' fontSize='20px'>
+                <Heading color='white' fontSize='34px'>Add the Shield bot to the server(s) of your choice</Heading>
+                <Text color='white' fontSize='13px'>
                 Click this link to add the Shield bot to your server(s)
                 </Text>
                 <Link fontSize='20px' href='https://chakra-ui.com' color='rgba(22, 128, 252, 1)'>
@@ -22,7 +22,7 @@ const GetStartedText:React.FC = () => {
         </Center>
         <Center>
         <Stack mt='6' spacing='3'>
-                <Heading color='white' fontSize='36px'>Update your Server Settings in Discord</Heading>
+                <Heading color='white' fontSize='34px'>Update your Server Settings in Discord</Heading>
                 <Text color='white' fontSize='20px'>
                 After adding the Shield Bot to your Server, go to Server Settings. Click on Roles. Scroll to the bottom of the list and Drag Shield to the top of the list.
                 </Text>
@@ -33,8 +33,8 @@ const GetStartedText:React.FC = () => {
         </Center>
         <Center>
         <Stack mt='6' spacing='3'>
-                <Heading color='white' fontSize='36px'>Visit the Bot Management Dashboard</Heading>
-                <Text color='white' fontSize='20px'>
+                <Heading color='white' fontSize='34px'>Visit the Bot Management Dashboard</Heading>
+                <Text color='white' fontSize='13px'>
                 Click this link to access your admin dashboard for Shield bot
                 </Text>
                 <Link fontSize='20px' href='https://chakra-ui.com' color='rgba(22, 128, 252, 1)'>

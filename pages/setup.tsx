@@ -17,7 +17,7 @@ export default function WithBackgroundImage() {
         <link rel="icon" href="" />
     </Head>
     <Center>
-    <Heading py='200px' color='white' fontSize='36px'>Get started with Shield</Heading>
+    <Heading py='150px' color='white' fontSize='36px'>Get started with Shield</Heading>
     </Center>
     <Center>
     <SimpleGrid w='7xl' minHeight='100vh' columns={{ base: 1, md: 3 }} gap={{ base: '5', md: '6' }}>
@@ -31,6 +31,7 @@ export default function WithBackgroundImage() {
             objectFit='cover'
             src='./div.png'
             alt='Dan Abramov'
+            height='95vh'
         />        
         </Box>
     </Center>

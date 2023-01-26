@@ -32,17 +32,6 @@ const Hero:React.FC = () => {
               >
               Add to Discord
             </Button>
-            <Button
-              size='lg'
-              rounded={'full'}
-              bg={'white'}
-              color={'black'}
-              _hover={{
-                bg: 'blue.500',
-              }}
-              >
-              Admin Dashboard
-            </Button>
           </Stack>
         </Stack>
       </Flex>
