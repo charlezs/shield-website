@@ -45,10 +45,8 @@ const GetStartedText:React.FC = () => {
                 <Text color='white'fontSize='20px'>
                 This Can be used for:
                 <UnorderedList pl='15'>
-                    <ListItem>Lorem ipsum dolor sit amet</ListItem>
-                    <ListItem>Consectetur adipiscing elit</ListItem>
-                    <ListItem>Integer molestie lorem at massa</ListItem>
-                    <ListItem>Facilisis in pretium nisl aliquet</ListItem>
+                    <ListItem>Setting the channel where daily scam alerts are automatically shared.</ListItem>
+                    <ListItem>Configuring specific bot features and tracking server usage.</ListItem>
                 </UnorderedList>
                 </Text>
         </Stack>
