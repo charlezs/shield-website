@@ -14,7 +14,7 @@ export default function WithBackgroundImage() {
     <>
     <Container maxW="full" bg='#010633'>
     <Head>
-        <title>Home</title>
+        <title>Welcome to Shield</title>
         <meta name="description" content="Shield" />
         <link rel="icon" href="" />
     </Head>
