@@ -13,12 +13,12 @@ export default function FeatureHeading() {
   return (
     <Container maxW={"100%"} bg="white">
       <Stack textAlign={"center"} align={"center"}>
-        <Heading fontSize="56px" py="28px" lineHeight={"110%"}>
+        <Heading fontSize={{ base: "40px", md: "56px" }} py="28px" lineHeight={"110%"}>
           Protect your users with <br />
           <Text
             bgGradient="linear(to-l, #2F80ED, #B2FFDA )"
             bgClip="text"
-            fontSize="6xl"
+            fontSize={{ base: "40px", md: "56px" }}            
             fontWeight="700"
           >
             web3 native security

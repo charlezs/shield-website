@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
             w={"full"}
             maxW={"md"}
           >
-            <Heading fontSize={"56px"}>
+            <Heading fontSize={{ base: "40px", md: "56px" }}>
               <Text color="white">Eliminate scams from your</Text>
               {/* this is what makes the text cycle vvvv */}
               <TextLoop>

@@ -14,9 +14,9 @@ export default function Demo() {
   return (
     <Container maxW={"100%"} bg="white" pb="10">
       <Stack textAlign={"center"} align={"center"}>
-        <Heading fontWeight={750} fontSize="60px" py="28px" lineHeight={"110%"}>
+        <Heading fontWeight={750} fontSize={{ base: "40px", md: "60px" }} py="28px" lineHeight={"110%"}>
           Focus on growing your users. <br />
-          <Text fontSize="55px" color={"black"}>
+          <Text fontSize={{ base: "40px", md: "55px" }} color={"black"}>
             We focus on defending them.
           </Text>
         </Heading>
