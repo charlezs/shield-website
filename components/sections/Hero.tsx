@@ -2,9 +2,10 @@ import { Stack, Flex, Heading, useBreakpointValue, Button, Text, Image, Containe
 import {SiDiscord} from 'react-icons/si'
 import React from 'react';
 import NextLink from 'next/link'
+import { TextLoop } from "react-text-loop-next";
 
 const Hero:React.FC = () => {
-    
+
     return(
   <Center>
     <Stack gap={'40'} bg="#010633" pt='20'maxW="full" direction={{ base: 'column', md: 'row' }}>
@@ -14,9 +15,15 @@ const Hero:React.FC = () => {
             <Text color='white'>
             Eliminate scams from your
             </Text>
-            <Text color={'blue.400'} as={'span'}>
-            NFT Project            
-            </Text>
+            <TextLoop>
+                <Text bgGradient='linear(to-r, #2F80ED, #B2FFDA )' bgClip='text'>Discord server</Text>
+                <Text bgGradient='linear(to-r, #2F80ED, #B2FFDA )' bgClip='text'>Web3 Community</Text>
+                <Text bgGradient='linear(to-r, #2F80ED, #B2FFDA )' bgClip='text'>NFT Project</Text>
+                <Text bgGradient='linear(to-r, #2F80ED, #B2FFDA )' bgClip='text'>DAO</Text>
+                <Text bgGradient='linear(to-r, #2F80ED, #B2FFDA )' bgClip='text'>User Experience</Text>
+            </TextLoop>{" "}
+
+
           </Heading>
           <Text fontSize='20px' color={'white'}>
           Shield is an AI-powered discord bot that helps web3 communities grow securely
