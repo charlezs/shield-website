@@ -7,14 +7,13 @@ import UserPerks from '../features/UserPerks';
 export default function Feature() {
   return (
     <>
-    <SimpleGrid columns={{ base: 1, md: 2, lg: 2 }} px='80' bg='white'>
-        {/* <FeatureHeading /> */}
+    <SimpleGrid columns={{ base: 1, md: 2, lg: 2 }} bg='white' px='600'>
         <ScamProtection />
         <UserPerks />
     </SimpleGrid>
     <Center bg='white'>
-        <Link fontSize='16px' href='https://chakra-ui.com' pb='40px'color='rgba(22, 128, 252, 1)'>
-                Learn how to setup Shield <ArrowForwardIcon />
+        <Link fontWeight='750' fontSize='16px' href='https://docs.getshield.xyz/api-tutorials/introduction' pb='40px'color='rgba(22, 128, 252, 1)'>
+        Check our API documentation<ArrowForwardIcon />
 
         </Link>
     </Center>

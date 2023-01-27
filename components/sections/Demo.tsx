@@ -18,7 +18,7 @@ import {
           align={'center'}
           >
           <Heading
-            fontWeight={600}
+            fontWeight={750}
             fontSize='60px'
             py='28px'
             lineHeight={'110%'}>
@@ -33,6 +33,7 @@ import {
           </Text>
         </Stack>
         <Center>
+        <Link href='https://calendly.com/emanft/shield?month=2023-01' isExternal>
         <Button
               size='lg'
               rounded={'full'}
@@ -45,6 +46,7 @@ import {
               >
               Book A Demo
             </Button>
+        </Link>
         </Center>
       </Container>
     );

@@ -17,21 +17,25 @@ import {
           align={'center'}
           >
           <Heading
-            fontWeight={600}
             fontSize='56px'
             py='28px'
             lineHeight={'110%'}>
             Protect your users with <br />
-            <Text color={'blue.300'}>
+            <Text 
+              bgGradient='linear(to-l, #2F80ED, #B2FFDA )'
+              bgClip='text'
+              fontSize='6xl'
+              fontWeight='700'
+            >
             web3 native security
             </Text>
           </Heading>
-          <Text color={'gray.500'} maxW={'3xl'} pb='30px'fontSize='20px'>
+          <Text color={'gray.500'} maxW={'3xl'} pb='20px'fontSize='25px'>
           Secure your community in minutes, for free.
           </Text>
         </Stack>
         <Center>
-        <Link fontSize='16px' href='https://chakra-ui.com' pb='100px'color='rgba(22, 128, 252, 1)'>
+        <Link  fontWeight='750' fontSize='16px' href='/get-started' pb='100px'color='rgba(22, 128, 252, 1)'>
                 Learn how to setup Shield <ArrowForwardIcon />
 
         </Link>

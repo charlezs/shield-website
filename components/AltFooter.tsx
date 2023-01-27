@@ -46,15 +46,15 @@ export default function AltFooter() {
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
-            <Link href={'#'}>Documentation</Link>
-            <Link href={'#'}>Twitter</Link>
-            <Link href={'#'}>LinkedIn</Link>
-            <Link href={'#'}>Contact Us</Link>
+            <Link href={'https://docs.getshield.xyz/api-tutorials/introduction'}>Documentation</Link>
+            <Link href={'https://twitter.com/shield_xyz'}>Twitter</Link>
+            <Link href={'https://www.linkedin.com/company/shieldxyz/'}>LinkedIn</Link>
+            <Link href={'mailto:founders@getshield.xyz'}>Contact Us</Link>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Legal</ListHeader>
-            <Link href={'#'}>Terms of Service</Link>
-            <Link href={'#'}>Privacy Policy</Link>
+            <Link href={'https://typedream.sfo3.digitaloceanspaces.com/Typedream_Terms_of_Service.pdf'}>Terms of Service</Link>
+            <Link href={'https://typedream.sfo3.digitaloceanspaces.com/Typedream_Privacy_Policy.pdf'}>Privacy Policy</Link>
           </Stack>
         </SimpleGrid>
 

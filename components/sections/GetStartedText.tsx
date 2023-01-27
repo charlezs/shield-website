@@ -44,11 +44,11 @@ const GetStartedText:React.FC = () => {
                 </Text>
                 <Text color='white'fontSize='20px'>
                 This Can be used for:
-                <UnorderedList pl='15'>
+                </Text>
+                <UnorderedList color='white'fontSize='20px' pl='10'>
                     <ListItem>Setting the channel where daily scam alerts are automatically shared.</ListItem>
                     <ListItem>Configuring specific bot features and tracking server usage.</ListItem>
                 </UnorderedList>
-                </Text>
         </Stack>
         </Center>
 

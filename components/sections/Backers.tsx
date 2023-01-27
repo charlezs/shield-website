@@ -5,12 +5,12 @@ const Backers:React.FC = () => {
     
     return(
     <>
-    <Container maxW="full" py='10'>
+    <Container maxW="8xl" py='10'>
         <Text fontSize={'18px'} align='center' py='10' color={'gray.500'}>
-            Venture-backed founders from world-class institutions
+        Built by venture-backed founders from world-class institutions
         </Text>
         <Center>
-        <SimpleGrid gap={{ base: '4', md: '8' }} columns={{ base: 2, md: 3, lg: 6 }}>
+        <SimpleGrid gap={{ base: '4', md: '25' }} columns={{ base: 2, md: 3, lg: 6 }}>
         <Center>
         <Image
             objectFit='cover'
