@@ -1,5 +1,5 @@
 import { ArrowForwardIcon } from "@chakra-ui/icons";
-import { Center, Link, SimpleGrid } from "@chakra-ui/react";
+import { Center, HStack, Link, Box, Stack } from "@chakra-ui/react";
 import FeatureHeading from "../features/FeatureHeading";
 import ScamProtection from "../features/ScamProtection";
 import UserPerks from "../features/UserPerks";
@@ -7,11 +7,13 @@ import UserPerks from "../features/UserPerks";
 
 export default function Feature() {
   return (
-    <>
-      <SimpleGrid columns={{ base: 1, md: 2, lg: 2 }} bg="white" px="">
+    <Box maxW='100%' bg='white'>
+    <Center>
+      <Stack bg="white" direction={{ base:'column', md:'row'}}>
         <ScamProtection />
         <UserPerks />
-      </SimpleGrid>
+      </Stack>
+      </Center>
       <Center bg="white">
         <Link
           fontWeight="750"
@@ -24,6 +26,6 @@ export default function Feature() {
           <ArrowForwardIcon />
         </Link>
       </Center>
-    </>
+    </Box>
   );
 }
