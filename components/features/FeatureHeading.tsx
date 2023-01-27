@@ -8,7 +8,7 @@ import {
   Link,
 } from "@chakra-ui/react";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
-// Heading above the 2 features on the homepage
+// Heading above the two features on the homepage
 export default function FeatureHeading() {
   return (
     <Container maxW={"100%"} bg="white">
