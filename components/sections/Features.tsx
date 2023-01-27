@@ -7,7 +7,7 @@ import UserPerks from '../features/UserPerks';
 export default function Feature() {
   return (
     <>
-    <SimpleGrid columns={{ base: 1, md: 2, lg: 2 }} bg='white' px='600'>
+    <SimpleGrid columns={{ base: 1, md: 2, lg: 2 }} bg='white' px=''>
         <ScamProtection />
         <UserPerks />
     </SimpleGrid>
