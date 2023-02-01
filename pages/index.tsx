@@ -12,7 +12,7 @@ import Hero from "../components/sections/Hero";
 export default function MainPage() {
   return (
     <>
-      <Container maxW="full" bg="#010633">
+      <Container maxW="full" bg="#010633" p="0">
         <Head>
           <title>Welcome to Shield</title>
           <meta name="description" content="Shield" />
