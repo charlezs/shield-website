@@ -44,7 +44,7 @@ export default function Simple() {
                 Home
               </NextLink>
               <NextLink href="/get-started" passHref>
-                Features
+                Get Started
               </NextLink>
               <NextLink
                 href="https://docs.getshield.xyz/api-tutorials/introduction"
@@ -76,7 +76,7 @@ export default function Simple() {
                 Home
               </NextLink>
               <NextLink href="/get-started" passHref>
-                Features
+                Get Started
               </NextLink>
               <NextLink
                 href="https://docs.getshield.xyz/api-tutorials/introduction"
